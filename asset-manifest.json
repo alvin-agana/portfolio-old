@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.11143a3d.chunk.css",
+    "main.css": "/portfolio/static/css/main.5442e714.chunk.css",
     "main.js": "/portfolio/static/js/main.2b4ff318.chunk.js",
     "main.js.map": "/portfolio/static/js/main.2b4ff318.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7ab7c39e.js",
@@ -12,7 +12,7 @@
     "static/js/3.db534c5c.chunk.js.map": "/portfolio/static/js/3.db534c5c.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.11143a3d.chunk.css.map": "/portfolio/static/css/main.11143a3d.chunk.css.map",
+    "static/css/main.5442e714.chunk.css.map": "/portfolio/static/css/main.5442e714.chunk.css.map",
     "static/js/2.76d3a98d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.76d3a98d.chunk.js.LICENSE.txt",
     "static/media/DiscordBotPreview.0a673d7f.png": "/portfolio/static/media/DiscordBotPreview.0a673d7f.png",
     "static/media/MemoryGamePreview.062d8944.png": "/portfolio/static/media/MemoryGamePreview.062d8944.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.7ab7c39e.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.76d3a98d.chunk.js",
-    "static/css/main.11143a3d.chunk.css",
+    "static/css/main.5442e714.chunk.css",
     "static/js/main.2b4ff318.chunk.js"
   ]
 }
