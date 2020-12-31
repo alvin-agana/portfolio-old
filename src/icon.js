@@ -12,7 +12,7 @@ class Icon extends Component {
         let iconLink = socials[this.props.iconNum]
         return(
             <div>
-                <a href={iconLink} className={`fa fa-${this.props.iconName}`} target="_blank" rel="noreferrer"></a>
+                <a href={iconLink} className={`icon fa fa-${this.props.iconName}`} target="_blank" rel="noreferrer"></a>
             </div>
         )
     }

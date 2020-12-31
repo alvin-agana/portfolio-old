@@ -1,6 +1,6 @@
 import './ProjectDescriptions.css';
 
-const desc1 = <div>
+const desc1 = <div className="project-desc">
     <h1>Memory Game</h1>
     <p className="desc">This is a memory/concentration game featuring one of my favorite cartoon characters, Pusheen. <br/><br/>
 
@@ -12,7 +12,7 @@ const desc1 = <div>
     <h2>Tech Stack: HTML, CSS, JavaScript</h2>
 </div>
 
-const desc2 = <div>
+const desc2 = <div className="project-desc">
     <h1>Discord Bot</h1>
     <p className="desc"> This is a personal Discord Bot simulating a braniac dog, Michi. It's a shiba inu breed. I hope Michi will be my real life pet one day. <br/><br/>
 

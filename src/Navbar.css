@@ -1,6 +1,6 @@
 .Navbar {
     background: #cfcfc4;
-    height: 80px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,9 +29,6 @@
     margin-right: 2rem;
 }
 
-.Navbar .fa:hover {
-    background: #cfcfc4;
-}
 .fa-bars {
     color: #fff;
 }
@@ -72,7 +69,6 @@
         opacity: 1;
         transition: all 0.6s ease;
         z-index: 1;
-        border: 2px solid black;
     }
 
     .navbar-logo {
@@ -85,8 +81,8 @@
     .menu-icon {
         display: block;
         position: absolute;
-        right: -10%;
-        top: -60%;
+        right: -15%;
+        top: -100%;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
