@@ -27,6 +27,8 @@
 @media only screen and (max-width: 800px) {
     .SkillsPage {
         height: auto;
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 58%, rgba(255,250,240,1) 100%);
     }
 
     .SkillsPage h2 {

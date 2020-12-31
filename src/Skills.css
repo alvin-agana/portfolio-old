@@ -20,7 +20,7 @@
 @media only screen and (max-width: 800px) {
     .Skill {
         width: 50%;
-        border: 5px solid floralwhite;
+        border: 5px solid white;
     }
     
     .Skill h2 {

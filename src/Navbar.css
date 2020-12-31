@@ -61,7 +61,7 @@
         height: 500px;
         position: absolute;
         top: 80px;
-        left: -100%;
+        left: -130%;
         opacity: 1;
         transition: all 0.5s ease;
     }
@@ -70,8 +70,9 @@
         background: #cfcfc4;
         left: 0;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.6s ease;
         z-index: 1;
+        border: 2px solid black;
     }
 
     .navbar-logo {
