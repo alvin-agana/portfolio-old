@@ -1,0 +1,73 @@
+.Project {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project h2 {
+    font-weight: 800;
+}
+
+.Project-img-container {
+    box-shadow: -3px -3px 12px 0.5px #cfcfc4;
+    position: relative;
+}
+
+.Project a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Project-title-container {
+    margin-top: 2%;
+    color: white;
+    background: #cfcfc4;
+    width: 50%;
+}
+
+.Project-title-container:hover {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.6) 0%, rgba(253,29,29,0.6) 50%, rgba(252,176,69,0.6) 100%);
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+.Project-img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.65);
+    opacity: 0;
+    transition: opacity 0.25s;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Project-img-overlay:hover {
+    opacity: 1;
+}
+
+.Project-img-container img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .Project {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .Project-title-container {
+        width: 50%;
+        height: 10%;
+    } 
+}

@@ -1,0 +1,79 @@
+.AboutPage {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /*
+    background: rgb(255,238,205);
+    background: linear-gradient(0deg, rgba(255,238,205,1) 0%, rgba(255,255,255,1) 100%);
+    */
+    background: rgb(255,250,240);
+    background: linear-gradient(0deg, rgba(255,250,240,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.AboutPage-box {
+    width: 75%;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.2), 0 15px 40px rgba(166, 173, 201, 0.5);
+    display: flex;
+    text-align: left;
+    min-height: 50vh;
+    overflow: auto;
+}
+
+.AboutPage-box p {
+    font-size: 18px;
+}
+
+.AboutPage-Me {
+    width: 50%;
+    margin: 1.5%;
+}
+
+.AboutPage-Education {
+    width: 50%;
+    margin: 1.5%;
+}
+
+#AboutPage-title {
+    font-size: 50px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .AboutPage {
+        padding: 5px;
+        margin-top: 10px;
+        background: rgb(255,250,240);
+        background: linear-gradient(0deg, rgba(255,250,240,1) 50%, rgba(255,255,255,1) 100%);
+    }
+    #AboutPage-title {
+        font-size: 30px;
+    }
+
+    .AboutPage-box {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .AboutPage-box p {
+        font-size: 12px;
+    }
+
+    .AboutPage-Me {
+        width: auto;
+    }
+
+    .AboutPage-Education {
+        width: auto;
+    }
+
+    .AboutPage-box h1 {
+        font-size: 20px;
+    }
+}

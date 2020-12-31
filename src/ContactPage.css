@@ -1,0 +1,45 @@
+.ContactPage {
+    height: auto;
+    text-align: center;
+    background: rgb(255,238,205);
+    background: linear-gradient(0deg, rgba(255,238,205,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.icon-box-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ContactPage h2 {
+    font-weight: 300;
+}
+
+.ContactPage p {
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 800px) {
+    .ContactPage {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .icon-box-container {
+        padding: 13px;
+    }
+    
+    .ContactPage h1 {
+        font-size: 30px;
+    }
+    .ContactPage h2 {
+        font-size: 18px;
+    }
+    
+    .ContactPage p {
+        font-weight: 300;
+        font-size: 8px;
+    }
+}
+

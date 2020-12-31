@@ -1,0 +1,30 @@
+.Skill {
+    width: 70%;
+    background: #cfcfc4;
+    color: white;
+    border-top: 20px solid floralwhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Skill h2 {
+    font-weight: 500;
+}
+
+.Skill:hover {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.6) 0%, rgba(253,29,29,0.6) 50%, rgba(252,176,69,0.6) 100%);
+}
+
+@media only screen and (max-width: 800px) {
+    .Skill {
+        width: 50%;
+        border: 5px solid floralwhite;
+    }
+    
+    .Skill h2 {
+        font-weight: 500;
+        font-size: 15px;
+    }
+}

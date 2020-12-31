@@ -1,0 +1,43 @@
+.ProjectsPage {
+    height: 80vh;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,250,240,1) 50%);
+}
+
+.ProjectsPage h2 {
+    font-weight: 300;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 800px) {
+    .ProjectsPage {
+        height: auto;
+        text-align: center;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,250,240,1) 50%);
+    }
+    
+    .ProjectsPage h2 {
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .ProjectsPage h1 {
+        font-size: 30px;
+    }
+    
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

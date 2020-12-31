@@ -1,0 +1,34 @@
+.HomePage {
+    height: 115vh;
+    width: 100%;
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    border: 2px solid black;
+    background-image: url(./ProfilePic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+}
+
+.HomePage img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 375px) {
+    .banner {
+        display: block;
+        width: 100%;
+        height: 350px;
+    }
+
+    .HomePage {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+}
