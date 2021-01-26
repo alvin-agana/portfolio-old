@@ -31,6 +31,7 @@
 
 .fa-bars {
     color: #fff;
+    height: 10px;
 }
 
 .menu-icon {
@@ -48,6 +49,7 @@
     color: #cfcfc4;
     border-radius: 4px;
     transition: all 0.3s ease-out;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
@@ -73,9 +75,10 @@
 
     .navbar-logo {
         position: absolute;
-        left: 0;
+        left: -40px;
         bottom: 10px;
         transform: translate(25%, 50%);
+        font-size: 20px;
     }
 
     .menu-icon {

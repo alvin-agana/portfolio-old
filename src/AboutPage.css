@@ -13,7 +13,7 @@
 }
 
 .AboutPage-box {
-    width: 75%;
+    width: 80%;
     text-align: center;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.2), 0 15px 40px rgba(166, 173, 201, 0.5);
     display: flex;
@@ -54,7 +54,7 @@
     }
 
     .AboutPage-box {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         text-align: left;

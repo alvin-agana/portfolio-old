@@ -14,6 +14,7 @@ class SkillsPage extends Component {
                         <Skills skill="HTML / CSS / JavaScript"/>
                         <Skills skill="React.JS"/>
                         <Skills skill="Python"/>
+                        <Skills skill="Flask" />
                         <Skills skill="C++"/>
                     </div>
                     <div className="SkillsPage-col">

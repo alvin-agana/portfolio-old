@@ -23,9 +23,18 @@ const desc2 = <div className="project-desc">
     <h2>Tech Stack: JavaScript, Node.js, Discord.js</h2>
 </div>
 
+const desc3 = <div className="project-desc">
+    <h1>HackDavis 2021</h1>
+    <p className="desc">At my first hackathon at HackDavis, I collaborated with another peer on developing a web application that provides healthy food recipes and encourages grocery shopping at local farmer's markets.<br/><br/>
 
-const ProjectDescriptions = [desc1, desc2];
-const ProjectLinks = ["https://github.com/alvin-agana/Memory-Game", "https://github.com/alvin-agana/PersonalDiscordBot"];
+    I utilized external API's such as the Spoonacular and USDA Farmer's Markets to relay info to users. I used Python and the web framework Flask, which I learned during the hackathon, to connect with our front-end.
+    <br/></p>
+
+    <h2>Tech Stack: Python, Flask, HTML, CSS</h2>
+</div>
+
+const ProjectDescriptions = [desc1, desc2, desc3];
+const ProjectLinks = ["https://github.com/alvin-agana/Memory-Game", "https://github.com/alvin-agana/PersonalDiscordBot", "https://devpost.com/software/healthy-food-eoqnch"];
 
 export { ProjectDescriptions };
 export { ProjectLinks };
