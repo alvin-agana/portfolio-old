@@ -1,5 +1,5 @@
 .AboutPage {
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -37,7 +37,7 @@
 }
 
 #AboutPage-title {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
@@ -46,17 +46,19 @@
     .AboutPage {
         background: rgb(255,250,240);
         background: linear-gradient(0deg, rgba(255,250,240,1) 50%, rgba(255,255,255,1) 100%);
+        margin-top: -5%;
     }
     #AboutPage-title {
         font-size: 35px;
     }
 
     .AboutPage-box {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         text-align: left;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .AboutPage-box p {

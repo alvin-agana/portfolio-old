@@ -4,7 +4,7 @@ class AboutPage extends Component {
     render() {
         return (
             <div className="AboutPage" id="About">
-                <h1 id="AboutPage-title"> Hey, I'm Alvin.</h1>
+                <h1 id="AboutPage-title">Profile</h1>
                 <div className="AboutPage-box">
                     <div className="AboutPage-Me">
                         <h1>About Me</h1>
