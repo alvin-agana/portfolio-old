@@ -42,15 +42,13 @@
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
     .AboutPage {
-        padding: 5px;
-        margin-top: 10px;
         background: rgb(255,250,240);
         background: linear-gradient(0deg, rgba(255,250,240,1) 50%, rgba(255,255,255,1) 100%);
     }
     #AboutPage-title {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .AboutPage-box {
