@@ -12,16 +12,16 @@
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
     .desc {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     h1 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     h2 {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
