@@ -11,7 +11,10 @@ class ProjectsPage extends Component {
                 <div className="project-container">
                     <Project title="Memory Game" />
                     <Project title="Discord Bot" />
+                </div>
+                <div className="project-container">
                     <Project title="HackDavis 2021" />
+                    <Project title="2021 Daily Goal App" />
                 </div>
             </div>
         )

@@ -3,6 +3,7 @@ import './Project.css';
 import projectImage0 from './MemoryGamePreview.png';
 import projectImage1 from './DiscordBotPreview.png';
 import projectImage2 from './HealthyFoodPreview.png';
+import projectImage3 from './homepage.png';
 import { ProjectDescriptions, ProjectLinks } from './ProjectDescriptions.js';
 
 class Project extends Component {
@@ -21,10 +22,14 @@ class Project extends Component {
             desc = ProjectDescriptions[1]
             links = ProjectLinks[1];
         }
-        else {
+        else if (this.props.title === "HackDavis 2021") {
             projectImage = projectImage2
             desc = ProjectDescriptions[2]
             links = ProjectLinks[2];
+        } else {
+            projectImage = projectImage3
+            desc = ProjectDescriptions[3]
+            links = ProjectLinks[3]
         }
     
         return (

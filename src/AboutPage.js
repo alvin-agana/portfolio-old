@@ -10,11 +10,9 @@ class AboutPage extends Component {
                         <h1>About Me</h1>
                         <p>
                             Hi, I am Alvin!<br/>
-                            I am 21 years old, and I am junior college student at UC Davis from Union City, CA.<br/><br/>
-                            I'm an independent, hard-working student full of curiosity to learn the latest technologies with a passion to help others. With my growing skillset,
-                            I hope to work with teams to solve big problems that companies face, build
-                            modern applications, and connect with like-minded individuals that share the same drive.<br/><br/>
-                            If you like what I can bring to the table, get in touch with me and let's work together. Thanks, and enjoy your stay!
+                            I am 21 years old, and I am junior college student at UC Davis from Union City, CA actively seeking software engineering opportunities.<br/><br/>
+                            Two things I enjoy are helping my community and coding web apps. I am passionate about leading my life with kindness as much as I am about web development. For my spring quarter 2021, I joined the non-profit organization ASUCD Pantry as a full stack developer to help thousands of food insecure students!<br/><br/>
+                            Other things I enjoy are playing the piano, playing chess, and watching the NBA. Thanks for stopping by, and enjoy your stay!
                         </p>
                     </div>
                     <div className="AboutPage-Education">
@@ -22,7 +20,7 @@ class AboutPage extends Component {
                         <p>
                             B.S. in Computer Science - University of California, Davis <br/>
                             Davis, CA - September 2020 to June 2022<br/>
-                            <b>GPA: 3.76</b><br/><br/>
+                            <b>GPA: 3.82</b><br/><br/>
                             Ohlone Community College<br/>
                             Fremont/Newark, CA - August 2017 to May 2020<br/><br/>
                         </p>

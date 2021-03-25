@@ -33,8 +33,18 @@ const desc3 = <div className="project-desc">
     <h2>Tech Stack: Python, Flask, HTML, CSS</h2>
 </div>
 
-const ProjectDescriptions = [desc1, desc2, desc3];
-const ProjectLinks = ["https://github.com/alvin-agana/Memory-Game", "https://github.com/alvin-agana/PersonalDiscordBot", "https://devpost.com/software/healthy-food-eoqnch"];
+const desc4 = <div className="project-desc">
+    <h1>2021 Daily Goal App</h1>
+    <p className="desc">I built an app that I use every day to keep track of my daily food intake, exercise, and my engagement with my hobbies. <br/><br/>
+
+    I took a Udemy class about MySQL and learned how to write SQL queries and integrate it into web applicatons. I applied my knowledge by building my own MySQL database, writing the schema, and building a web app to manage it!
+    <br/></p>
+
+    <h2>Tech Stack: MySQL, Node.js, Express.js, HTML, CSS, JavaScript</h2>
+</div>
+
+const ProjectDescriptions = [desc1, desc2, desc3, desc4];
+const ProjectLinks = ["https://github.com/alvin-agana/Memory-Game", "https://github.com/alvin-agana/PersonalDiscordBot", "https://devpost.com/software/healthy-food-eoqnch", "https://github.com/alvin-agana/2021-daily-goal-app"];
 
 export { ProjectDescriptions };
 export { ProjectLinks };
