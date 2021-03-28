@@ -11,7 +11,9 @@ class AboutPage extends Component {
                         <p>
                             Hi, I am Alvin!<br/>
                             I am 21 years old, and I am junior college student at UC Davis from Union City, CA actively seeking software engineering opportunities.<br/><br/>
-                            Two things I enjoy are helping my community and coding web apps. I am passionate about leading my life with kindness as much as I am about web development. For my spring quarter 2021, I joined the non-profit organization ASUCD Pantry as a full stack developer to help thousands of food insecure students!<br/><br/>
+                            Two things I enjoy are helping my community and coding web apps. I am passionate about leading my life with kindness as much as I am about web development. For my spring quarter 2021, I joined the non-profit organization ASUCD Pantry as a full stack developer to help thousands of food insecure students by developing their online ordering system!
+                            <br/>
+                            <br/>
                             Other things I enjoy are playing the piano, playing chess, and watching the NBA. Thanks for stopping by, and enjoy your stay!
                         </p>
                     </div>
